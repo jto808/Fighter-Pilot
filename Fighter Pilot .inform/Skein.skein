@@ -9,14 +9,14 @@
 
 Fighter Pilot 
 An Interactive Fiction by Jalen Toyama
-Release 1 / Serial number 190222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190226 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Living quarters
-You can see Bed and Task list here.
+You can see Task list here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1081"></child>
+        <children><child nodeId="node-1057"></child>
             <child nodeId="node-1008"></child>
             <child nodeId="node-1005"></child>
             <child nodeId="node-1004"></child>
@@ -69,9 +69,9 @@ Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1028"></child>
+        <children><child nodeId="node-1041"></child>
+            <child nodeId="node-1035"></child>
             <child nodeId="node-1022"></child>
-            <child nodeId="node-1049"></child>
             <child nodeId="node-1009"></child>
         </children>
     </item>
@@ -85,7 +85,15 @@ You can see a shower here.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1014"></child>
             <child nodeId="node-1010"></child>
+            <child nodeId="node-1090"></child>
         </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">turn on shower</command>
+        <result xml:space="preserve">You switch the shower on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1010">
         <command xml:space="preserve">take shower</command>
@@ -199,17 +207,27 @@ Mess hall
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1022">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Mess hall
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
+        <children><child nodeId="node-1023"></child>
+            <child nodeId="node-1071"></child>
         </children>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1071">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hanger
@@ -217,30 +235,19 @@ You can see Jackson here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1068"></child>
-            <child nodeId="node-1056"></child>
-            <child nodeId="node-1080"></child>
-            <child nodeId="node-1064"></child>
-            <child nodeId="node-1051"></child>
+        <children><child nodeId="node-1073"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1073">
         <command xml:space="preserve">x jackson</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve"> Sgt. Jackson, your squad leader, he is fully dressed in his combat uniform and seems to be ready for the mission.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
+        <children><child nodeId="node-1074"></child>
         </children>
     </item>
-    <item nodeId="node-1052">
-        <command xml:space="preserve">x Hanger</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1064">
+    <item nodeId="node-1074">
         <command xml:space="preserve">talk to jackson</command>
         <result xml:space="preserve">"Sir!" you say in a loud clear voice. 
 
@@ -270,10 +277,110 @@ You can see Jackson here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
+        <children><child nodeId="node-1075"></child>
         </children>
     </item>
-    <item nodeId="node-1095">
+    <item nodeId="node-1075">
+        <command xml:space="preserve">ask for kwy</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">ask for key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">ask jackson for key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hanger
+You can see Jackson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+            <child nodeId="node-1029"></child>
+            <child nodeId="node-1107"></child>
+            <child nodeId="node-1094"></child>
+            <child nodeId="node-1081"></child>
+            <child nodeId="node-1028"></child>
+            <child nodeId="node-1026"></child>
+            <child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">x jackson</command>
+        <result xml:space="preserve"> Sgt. Jackson, your squad leader, he is fully dressed in his combat uniform and seems to be ready for the mission.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+            <child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">x Hanger</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">take equipment room key from jackson</command>
+        <result xml:space="preserve">That seems to belong to Jackson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">talk to jackson</command>
+        <result xml:space="preserve">"Sir!" you say in a loud clear voice. 
+
+"Yes corpral?" he replies sternly.
+
+"Sir, do you have the equipment room key by any chance?" you ask
+
+"As a matter of fact I do corpral. Do you need it for something? He asks 
+
+"Yes sir!" you reply "I need to get my flight gear sir."
+
+"Flight gear?" he questions "what do you need that for corpral?"
+
+"For the mission sir." you reply faintly 
+
+"Did i hear you say mission corpral?" he replies. 
+
+"Yes Sir!" you answer
+
+ "as far as i know there are no upcoming missions. unless you are talking about the mission that went under way 10 minutes ago! he yells"
+
+"Yes sir, that one sir" you respond
+
+"well why didnt you just ask for the key? he questions.
+
+ you decide that it would be best to stop the conversation at this point.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
         <command xml:space="preserve">ask jackson about key</command>
         <result xml:space="preserve">"Sir may I have the equipment room key?" you ask 
 
@@ -281,7 +388,7 @@ You can see Jackson here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1028">
         <command xml:space="preserve">talk to Jackson</command>
         <result xml:space="preserve">"Sir!" you say in a loud clear voice. 
 
@@ -305,50 +412,336 @@ You can see Jackson here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1056">
+    <item nodeId="node-1081">
+        <command xml:space="preserve">ask jackson for key</command>
+        <result xml:space="preserve">"Sir may I have the equipment room key?" you ask 
+
+ "Alright, here you go corpral." he replies
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">talk to jackson</command>
+        <result xml:space="preserve">"Sir!" you say in a loud clear voice. 
+
+"Yes corpral?" he replies sternly.
+
+"Sir, do you have the equipment room key by any chance?" you ask
+
+"As a matter of fact I do corpral. Do you need it for something? He asks 
+
+"Yes sir!" you reply "I need to get my flight gear sir."
+
+"Flight gear?" he questions "what do you need that for corpral?"
+
+"For the mission sir." you reply faintly 
+
+"Did i hear you say mission corpral?" he replies. 
+
+"Yes Sir!" you answer
+
+ "as far as i know there are no upcoming missions. unless you are talking about the mission that went under way 10 minutes ago! he yells"
+
+"Yes sir, that one sir" you respond
+
+"well why didnt you just ask for the key? he questions.
+
+ you decide that it would be best to stop the conversation at this point.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">ask jackson about key</command>
+        <result xml:space="preserve">"Sir may I have the equipment room key?" you ask 
+
+ "Alright, here you go corpral." he replies
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  an Equipment room key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1096"></child>
+        </children>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+        </children>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Mess hall
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1099"></child>
+        </children>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Equipment room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1100"></child>
+        </children>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">unlock locker</command>
+        <result xml:space="preserve">Which do you mean, Locker #1 or Locker #2?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">#1</command>
+        <result xml:space="preserve">(with the Equipment room key)
+You unlock Locker #1.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">#2</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">unlock #2</command>
+        <result xml:space="preserve">(with the Equipment room key)
+That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">ask about key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1108"></child>
+        </children>
+    </item>
+    <item nodeId="node-1108">
+        <command xml:space="preserve">ask jackson about key</command>
+        <result xml:space="preserve">"Sir may I have the equipment room key?" you ask 
+
+ "Alright, here you go corpral." he replies
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1109"></child>
+        </children>
+    </item>
+    <item nodeId="node-1109">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Mess hall
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1110"></child>
+        </children>
+    </item>
+    <item nodeId="node-1110">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1111"></child>
+        </children>
+    </item>
+    <item nodeId="node-1111">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Equipment room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1112"></child>
+        </children>
+    </item>
+    <item nodeId="node-1112">
+        <command xml:space="preserve">unlock locker #1</command>
+        <result xml:space="preserve">(with the Equipment room key)
+You unlock Locker #1.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">unlock locker #2</command>
+        <result xml:space="preserve">(with the Equipment room key)
+You unlock Locker #2.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1114"></child>
+        </children>
+    </item>
+    <item nodeId="node-1114">
+        <command xml:space="preserve">open locker #1</command>
+        <result xml:space="preserve">You open Locker #1, revealing your pilot helmet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1115"></child>
+        </children>
+    </item>
+    <item nodeId="node-1115">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">(your pilot helmet)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1116"></child>
+        </children>
+    </item>
+    <item nodeId="node-1116">
+        <command xml:space="preserve">open locker #2</command>
+        <result xml:space="preserve">You open Locker #2, revealing your flight suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">(your flight suit)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1118"></child>
+        </children>
+    </item>
+    <item nodeId="node-1118">
+        <command xml:space="preserve">put on helmet</command>
+        <result xml:space="preserve">You put on your pilot helmet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1119"></child>
+        </children>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve">put on flight suit</command>
+        <result xml:space="preserve">You put on your flight suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1120"></child>
+        </children>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">x helmet</command>
+        <result xml:space="preserve">Your pilot helmet, it was custom shaped to fit your head perfectly. It shares the same black and silver color scheme as your flight suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1121"></child>
+        </children>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">x flight suit \</command>
+        <result xml:space="preserve">I only understood you as far as wanting to examine your flight suit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">x flight suit</command>
+        <result xml:space="preserve">A skin tight silver suit with a black reinforced chest piece. Standard issue to all pilots in the military.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1029">
         <command xml:space="preserve">X Jackson</command>
         <result xml:space="preserve">Jackson, your squad leader, he is fully dressed in his combat uniform and seems to be ready for the mission.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
+        <children><child nodeId="node-1030"></child>
         </children>
     </item>
-    <item nodeId="node-1057">
+    <item nodeId="node-1030">
         <command xml:space="preserve">kiss jackson</command>
         <result xml:space="preserve">Jackson might not like that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1058"></child>
+        <children><child nodeId="node-1031"></child>
         </children>
     </item>
-    <item nodeId="node-1058">
+    <item nodeId="node-1031">
         <command xml:space="preserve">take combat suit</command>
         <result xml:space="preserve">I only understood you as far as wanting to take the combat uniform.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1059"></child>
+        <children><child nodeId="node-1032"></child>
         </children>
     </item>
-    <item nodeId="node-1059">
+    <item nodeId="node-1032">
         <command xml:space="preserve">take combat uniform</command>
         <result xml:space="preserve">That seems to belong to Jackson.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1060"></child>
+        <children><child nodeId="node-1033"></child>
         </children>
     </item>
-    <item nodeId="node-1060">
+    <item nodeId="node-1033">
         <command xml:space="preserve"> Talk to Jackson</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1068">
+    <item nodeId="node-1034">
         <command xml:space="preserve">Talk to jackson</command>
         <result xml:space="preserve">"Sir!" you say in a loud clear voice. 
 
@@ -372,176 +765,10 @@ You can see Jackson here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1022">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Living quarters
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
-        </children>
-    </item>
-    <item nodeId="node-1023">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-Hallway
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
-        </children>
-    </item>
-    <item nodeId="node-1024">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Living quarters
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1025"></child>
-        </children>
-    </item>
-    <item nodeId="node-1025">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-Hallway
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1026"></child>
-        </children>
-    </item>
-    <item nodeId="node-1026">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Living quarters
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1027"></child>
-        </children>
-    </item>
-    <item nodeId="node-1027">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-Hallway
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1028">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Equipment room
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
-            <child nodeId="node-1029"></child>
-            <child nodeId="node-1043"></child>
-        </children>
-    </item>
-    <item nodeId="node-1043">
-        <command xml:space="preserve">x room</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
-        </children>
-    </item>
-    <item nodeId="node-1044">
-        <command xml:space="preserve">x locekr</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1045"></child>
-        </children>
-    </item>
-    <item nodeId="node-1045">
-        <command xml:space="preserve">x Locker #1</command>
-        <result xml:space="preserve">A standard issue equipment locker standing at 6 feet tall. There is a worn down pinup poster on the front.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1046"></child>
-        </children>
-    </item>
-    <item nodeId="node-1046">
-        <command xml:space="preserve">open locker #1</command>
-        <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1047"></child>
-        </children>
-    </item>
-    <item nodeId="node-1047">
-        <command xml:space="preserve">unlock locker #1</command>
-        <result xml:space="preserve">What do you want to unlock Locker #1 with?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1029">
-        <command xml:space="preserve">open locker #1</command>
-        <result xml:space="preserve">It isn't something you can open.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
-        </children>
-    </item>
-    <item nodeId="node-1030">
-        <command xml:space="preserve">take suit</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1031"></child>
-        </children>
-    </item>
-    <item nodeId="node-1031">
-        <command xml:space="preserve">take helmet</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1032"></child>
-        </children>
-    </item>
-    <item nodeId="node-1032">
-        <command xml:space="preserve">put on suit</command>
-        <result xml:space="preserve">You can't wear that!
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1033">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1034"></child>
-        </children>
-    </item>
-    <item nodeId="node-1034">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Hallway
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1035"></child>
-        </children>
-    </item>
     <item nodeId="node-1035">
-        <command xml:space="preserve">w</command>
+        <command xml:space="preserve">n</command>
         <result xml:space="preserve">
-Wash room
+Living quarters
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -549,8 +776,9 @@ Wash room
         </children>
     </item>
     <item nodeId="node-1036">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -558,9 +786,9 @@ Wash room
         </children>
     </item>
     <item nodeId="node-1037">
-        <command xml:space="preserve">e</command>
+        <command xml:space="preserve">n</command>
         <result xml:space="preserve">
-Hallway
+Living quarters
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -569,50 +797,215 @@ Hallway
     </item>
     <item nodeId="node-1038">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1081">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1082"></child>
+        <children><child nodeId="node-1039"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
+    <item nodeId="node-1039">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Living quarters
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1083"></child>
+        <children><child nodeId="node-1040"></child>
         </children>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1040">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1084"></child>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Equipment room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+            <child nodeId="node-1047"></child>
+            <child nodeId="node-1042"></child>
         </children>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1042">
+        <command xml:space="preserve">x room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">x locekr</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">x Locker #1</command>
+        <result xml:space="preserve">A standard issue equipment locker standing at 6 feet tall. There is a worn down pinup poster on the front.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">open locker #1</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">unlock locker #1</command>
+        <result xml:space="preserve">What do you want to unlock Locker #1 with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">open locker #1</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">take suit</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">take helmet</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">put on suit</command>
+        <result xml:space="preserve">You can't wear that!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1053"></child>
+        </children>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wash room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1055"></child>
+        </children>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1056"></child>
+        </children>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+        </children>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1060"></child>
+        </children>
+    </item>
+    <item nodeId="node-1060">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Mess hall
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1085"></child>
+        <children><child nodeId="node-1061"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1061">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hanger
@@ -620,10 +1013,10 @@ You can see Jackson here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
+        <children><child nodeId="node-1062"></child>
         </children>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1062">
         <command xml:space="preserve">talk to jackson</command>
         <result xml:space="preserve">"Sir!" you say in a loud clear voice. 
 
