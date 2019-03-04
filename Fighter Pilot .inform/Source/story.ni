@@ -18,6 +18,8 @@ Task list is a thing in the living quarters. The description is "The messy writi
 
 Hallway is a room. it is south of the Living quarters. It is east of the Wash room. It is west of the Equipment room. It is north of the Mess hall. The description is "A hallway with many different paths and doors. The floor is a shining white synthetic polymer. Your living quarters are to the north. The Mess hall entrance is to the south. The Wash room is to the west and the equipment room is to the east." 
 
+Floor is scenery in the Hallway. The description is "A shining white floor made from synthetic polymer."
+
 Wash room is a room. It is west of the Hallway. The description is "The public wash room, much like the majority of the ship, fairly simple. There are rows of showers and boxes for storage of toiletries. One of the showers has been left slightly on."  The shower is a device in the Wash room. The description is "One of many showers in a row. This one has been left slightly on." The shower is switched on.
 A person is either clean or dirty. 
 A person is usually dirty. 
@@ -37,12 +39,12 @@ Instead of taking shower:
 
 Equipment room is a room. It is east of the Hallway. The description is "A cramped storage room with two lockers, one is taller than the other. The hallway is to the west." 
 
-Locker #1 is scenery in the Equipment room. it is a closed openable container. It is locked and lockable. The Equipment room key unlocks locker #1. The description of Locker #1 is "A standard issue equipment locker standing at 6 feet tall. There is a worn down pinup poster on the front." 
+Locker 1 is scenery in the Equipment room. it is a closed openable container. It is locked and lockable. The Equipment room key unlocks locker 1. The description of Locker 1 is "A standard issue equipment locker standing at 6 feet tall. There is a worn down pinup poster on the front." 
 
-Locker #2 is a scenery in the Equipment room. It is a closed openable container. It is locked and lockable. The Equipment room key unlocks locker #2. The description of Locker #2 is "A smaller equipment locker than the adjacent one. It has the faded logo of a once popular soft drink on the front."
+Locker 2 is a scenery in the Equipment room. It is a closed openable container. It is locked and lockable. The Equipment room key unlocks locker 2. The description of Locker 2 is "A smaller equipment locker than the adjacent one. It has the faded logo of a once popular soft drink on the front."
 
-Your flight suit is a wearable thing in Locker #2. The description is "A skin tight silver suit with a black reinforced chest piece. Standard issue to all pilots in the military. it is a little bit on the tight side."
-Your pilot helmet is wearable a thing in locker #1. The description is "Your pilot helmet, it was custom shaped to fit your head perfectly. It shares the same black and silver color scheme as your flight suit." 
+Your flight suit is a wearable thing in Locker 2. The description is "A skin tight silver suit with a black reinforced chest piece. Standard issue to all pilots in the military. it is a little bit on the tight side."
+Your pilot helmet is wearable a thing in locker 1. The description is "Your pilot helmet, it was custom shaped to fit your head perfectly. It shares the same black and silver color scheme as your flight suit." 
 
 Mess hall is a room. it is south of the Hallway. It is west of the Hanger. The description is "The main mess hall of the ship. All of the workers seem to be off duty and as a result the whole place seems to be deserted. Not a single scrap of food is in sight. The hanger is to the east and the hallway is to the north." 
 
@@ -72,5 +74,28 @@ If player is wearing Pilot helmet,
 If player is wearing Flight suit,
 end the story saying "Now that you are in full combat uniform you head to your ship. You climb into the cockpit and strap yourself in. With the green light from mission controll you start the launch sequence. 3, 2, 1. At 1 the ship launches forward and you are compressed to the back of your seat. You quickly move to catch up to the rest of your squad.".
 
+
+
+
+
+[How to win: 
+south 
+west 
+say "take shower"
+east 
+south 
+east
+say "ask jackson about the key"
+west
+north 
+east 
+unlock locker 1
+unlock locker 2
+open locker 1
+open locker 2
+take pilot helmet
+take flight suit 
+put on helmet 
+put on flight suit]
 
 
