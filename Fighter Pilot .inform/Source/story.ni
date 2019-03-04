@@ -1,6 +1,6 @@
 "Fighter Pilot " by Jalen Toyama 
 
-when story begins, say "You wake up from your nap and slowly get out of bed. You look around your room and out of hte corner of your eye you see the time. You are 10 minutes late for the mission launch! You scramble to get dressed and get going."
+when story begins, say "You wake up from your nap and slowly get out of bed. You look around your room and out of the corner of your eye you see the time. You are 10 minutes late for the mission launch! You scramble to get dressed and get going."
 
 
 
